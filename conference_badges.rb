@@ -20,7 +20,7 @@ def assign_rooms(array)
   array.reverse
 end
 
-def printer
+def printer(x)
     puts batch_badge_creator
     puts assign_rooms
 end
