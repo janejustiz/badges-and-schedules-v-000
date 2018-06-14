@@ -20,6 +20,13 @@ def assign_rooms(array)
   array.reverse
 end
 
-def printer
-    assign_rooms.each
+def printer(attendees)
+  attendees1 = attendees
+  attendees2 = attendees
+  batch_badge_creator(attendees1).each do |x|
+    puts x
+  end
+  assign_rooms(attendees2).each do |x|
+    puts x
+  end
 end
